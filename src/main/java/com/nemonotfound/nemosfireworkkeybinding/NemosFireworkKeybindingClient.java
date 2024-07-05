@@ -1,14 +1,15 @@
 package com.nemonotfound.nemosfireworkkeybinding;
 
-import com.nemonotfound.nemosfireworkkeybinding.network.packet.FireworkKeyPressedPayload;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientTickEvents;
 import net.fabricmc.fabric.api.client.keybinding.v1.KeyBindingHelper;
 import net.fabricmc.fabric.api.client.networking.v1.ClientPlayNetworking;
+import net.fabricmc.fabric.api.networking.v1.PacketByteBufs;
 import net.minecraft.client.option.KeyBinding;
 import net.minecraft.client.util.InputUtil;
 import org.lwjgl.glfw.GLFW;
 
+import static com.nemonotfound.nemosfireworkkeybinding.NemosFireworkKeybinding.FIREWORK_KEYBINDING_PACKET_ID;
 import static com.nemonotfound.nemosfireworkkeybinding.NemosFireworkKeybinding.MOD_ID;
 
 public class NemosFireworkKeybindingClient implements ClientModInitializer {
@@ -28,7 +29,7 @@ public class NemosFireworkKeybindingClient implements ClientModInitializer {
     private void registerFireworkKeyPressedEventProducer() {
         ClientTickEvents.END_CLIENT_TICK.register(client -> {
             while (fireworkRocketKeyBinding.wasPressed()) {
-                ClientPlayNetworking.send(new FireworkKeyPressedPayload());
+                ClientPlayNetworking.send(FIREWORK_KEYBINDING_PACKET_ID, PacketByteBufs.empty());
             }
         });
     }
