@@ -1,34 +1,32 @@
 {
 	"schemaVersion": 1,
-	"id": "nemos-firework-keybind",
+	"id": "nemos-firework-keybinding",
 	"version": "${version}",
-	"name": "Nemo's Firework Keybind",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "Nemo's Firework Keybinding",
+	"description": "Nemo's Firework Keybinding adds a keybinding to use firework rockets. Who would have thought..",
 	"authors": [
-		"Me!"
+		"NemoNotFound"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://nemonotfound.com/",
+		"sources": "https://github.com/NemoNotFound/NemosFireworkKeybind"
 	},
-	"license": "CC0-1.0",
-	"icon": "assets/nemos-firework-keybind/icon.png",
+	"license": "MIT",
+	"icon": "assets/nemos-firework-keybinding/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.nemonotfound.nemosfireworkkeybind.NemosFireworkKeybind"
+			"com.nemonotfound.nemosfireworkkeybinding.NemosFireworkKeybinding"
+		],
+		"client": [
+			"com.nemonotfound.nemosfireworkkeybinding.NemosFireworkKeybindingClient"
 		]
 	},
-	"mixins": [
-		"nemos-firework-keybind.mixins.json"
-	],
 	"depends": {
 		"fabricloader": ">=0.15.11",
 		"minecraft": "~1.21",
 		"java": ">=21",
-		"fabric-api": "*"
-	},
-	"suggests": {
-		"another-mod": "*"
+		"fabric-api": "*",
+		"fabric-key-binding-api-v1": "*"
 	}
 }
