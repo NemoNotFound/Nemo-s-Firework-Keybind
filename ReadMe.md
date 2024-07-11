@@ -3,8 +3,9 @@
 
 <h3 align="center">Disclaimer</h2>
 <p align="center" style="font-weight: 600;">
-  This mod works on the client side only, which gives you an advantage over other players.
-  I can't guarantee that you won't get banned from public servers when using this mod on them.
+  This mod works on the client side only, which gives you an advantage over other players. <br>
+  I can't guarantee that you won't get banned from public servers when using this mod on them. <br>
+  Use on public servers at your own risk or ask a server admin.
 </p>
 
 <br>
