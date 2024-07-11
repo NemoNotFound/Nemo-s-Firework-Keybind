@@ -1,4 +1,4 @@
-# Changelog v1.0
+# Changelog v1.1
 
-## Additions
-- Added keybinding for using fireworks
+## Changes
+- Made the mod work on client side only
