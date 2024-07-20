@@ -44,10 +44,16 @@
 </p>
 
 <br>
+<br>
 
-<p align="center">
-  If you need a Minecraft Server, go check out Kinetic Hosting and save 15% for your first month with the code "Nemo"! Just click here on the banner! <br>
-  <a href="https://billing.kinetichosting.net/aff.php?aff=679">
-    <img src="https://imgur.com/lguE51t.png" alt="Kinetic Hosting Minecraft Server">
-  </a>
-</p>
+<h2 align="center">Get a Minecraft Server</h2>
+<div align="center">
+    <p>
+        Looking for a Minecraft Server? Check out <a href="https://bisecthosting.com/Nemo404">BisectHosting</a>! <br>
+        Use my code <span style="font-weight: bold;">Nemo404</span> to get a 25% discount on your first month with any of their gaming servers. <br><br>
+        By using my code, you'll also be supporting my work as a Minecraft modder, helping me to pursue this passion full-time. Thank you!
+    </p>
+    <a href="https://bisecthosting.com/Nemo404">
+        <img src="https://www.bisecthosting.com/partners/custom-banners/e6d95b5e-b7fb-47eb-ad78-4dc6071a6171.webp" alt="BisectHosting Minecraft Server">
+    </a>
+</div>
